@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="clientUI.jnlp">
+  <information>
+    <title>clientUI</title>
+    <vendor>user</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="clientUI.jar" size="144565" download="eager" />
+    <jar href="lib\api.jar" size="3644" download="eager" />
+    <jar href="lib\charm-glisten-4.4.1.jar" size="1040787" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.23-bin.jar" size="834126" download="eager" />
+    <jar href="lib\slick.jar" size="643277" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="clientui.ClientUI"  name="clientUI" />
+  <update check="always"/>
+</jnlp>
